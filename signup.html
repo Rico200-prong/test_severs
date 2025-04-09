@@ -7,6 +7,9 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <!-- css link -->
+    <link rel="stylesheet" href="./signup_style.css" />
+    <!-- css link -->
     <title>Signup</title>
   </head>
   <body>
@@ -14,8 +17,11 @@
       <nav>
         <div>
           <img src="./logo.png" alt="Byway Logo" />
-          <li><a href="#">Categories</a></li>
+          <span>Byway</span>
         </div>
+        <ul>
+          <li><a href="#">Categories</a></li>
+        </ul>
         <div>
           <i class="bx bx-search-alt-2"></i>
           <input
@@ -41,64 +47,59 @@
         <img src="./Frame 427319048.png" alt="" />
       </section>
       <section>
-        <section>
+        <h1>Create Your Account</h1>
+        <p>Full Name</p>
+        <form>
+          <input type="text" placeholder="First name" />
+          <input type="text" placeholder="Last Name" />
+        </form>
+        <p>Username</p>
+        <form>
+          <input type="text" placeholder="Username" />
+        </form>
+        <p>Email</p>
+        <form>
+          <input type="email" placeholder="Email ID" />
+        </form>
+        <div>
           <div>
-            <p>Full Name</p>
+            <p>Password</p>
             <form>
-              <input type="text" placeholder="First name" />
-              <input type="text" placeholder="Last Name" />
+              <input type="password" placeholder="Enter Password" />
             </form>
           </div>
           <div>
-            <p>Username</p>
+            <p>Confirm Password</p>
             <form>
-              <input type="text" placeholder="Username" />
+              <input type="password" placeholder="Confirm Password" />
             </form>
           </div>
-          <div>
-            <p>Email</p>
-            <form>
-              <input type="email" placeholder="Email ID" />
-            </form>
-          </div>
-          <div>
-            <div>
-              <p>Password</p>
-              <form>
-                <input type="password" placeholder="Enter Password" />
-              </form>
-            </div>
-            <div>
-              <p>Confirm Password</p>
-              <form>
-                <input type="password" placeholder="Confirm Password" />
-              </form>
-            </div>
-            <button>
-              <span>Create Account </span>
-              <i class="bx bx-right-arrow-alt"></i>
-            </button>
-          </div>
-        </section>
-        <section>
+        </div>
+        <button>
+          <span>Create Account </span>
+          <i class="bx bx-right-arrow-alt"></i>
+        </button>
+        <div class="mid_div">
+          <hr />
           <ul>
             <li><a href="#">Sign Up With</a></li>
           </ul>
-        </section>
-        <section>
+          <hr />
+        </div>
+        <div>
           <button>
             <i class="bx bxl-facebook-circle"></i>
             <span>Facebook</span>
           </button>
           <button>
-            <i class="bx bxl-facebook-circle"></i>
+            <i class="bx bxl-google"></i>
             <span>Google</span>
           </button>
           <button>
             <i class="bx bxl-microsoft"></i>
             <span>Microsoft</span>
           </button>
-        </section>
+        </div>
       </section>
     </main>
   </body>
