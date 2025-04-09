@@ -192,6 +192,10 @@ main section:last-of-type > button {
   cursor: pointer;
 }
 
+main section:last-of-type > button span {
+  font-size: 16px;
+}
+
 main section:last-of-type > button i {
   font-size: 16px;
 }
@@ -394,5 +398,32 @@ main section:last-of-type > div:last-of-type button:last-of-type {
   }
   header nav {
     padding-inline: 1rem;
+  }
+}
+
+@media (width: 344px) {
+  main {
+    align-items: start;
+  }
+  main section:last-of-type {
+    margin: 0px;
+    padding-left: 5px;
+    width: 280px;
+  }
+  main section:last-of-type > form input,
+  main section:last-of-type > div:first-of-type,
+  main section:last-of-type > div:last-of-type button {
+    width: 280px;
+  }
+  main section:last-of-type form:nth-of-type(2) input,
+  main section:last-of-type form:nth-of-type(3) input {
+    width: 280px;
+  }
+  main section:last-of-type > div:first-of-type div form input,
+  main section:last-of-type > div:first-of-type div form {
+    width: 280px;
+  }
+  main section:last-of-type > div:last-of-type {
+    width: 280px;
   }
 }
